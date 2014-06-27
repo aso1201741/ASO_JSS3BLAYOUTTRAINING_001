@@ -39,9 +39,42 @@
             android:src="@drawable/rainbowblaxx" />
 
     </LinearLayout>
-    <ImageView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:src="@drawable/rainbow" />
+
+    <HorizontalScrollView
+        android:id="@+id/horizontalScrollView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal" >
+
+            <ImageView
+                android:layout_width="200dp"
+                android:layout_height="150dp"
+                android:scaleType="fitXY"
+                android:src="@drawable/rainbow" />
+
+            <ImageView
+                android:id="@+id/imageView1"
+                android:layout_width="120dp"
+                android:layout_height="150dp"
+                android:src="@drawable/rainbow2" />
+
+            <ImageView
+                android:id="@+id/imageView2"
+                android:layout_width="120dp"
+                android:layout_height="150dp"
+                android:src="@drawable/rainbow3" />
+
+            <ImageView
+                android:id="@+id/imageView3"
+                android:layout_width="120dp"
+                android:layout_height="150dp"
+                android:src="@drawable/rainbow4" />
+
+        </LinearLayout>
+    </HorizontalScrollView>
 
 </LinearLayout>

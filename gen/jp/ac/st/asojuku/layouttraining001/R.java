@@ -25,16 +25,22 @@ public final class R {
         public static final int images_anayuki001=0x7f020001;
         public static final int oraf01=0x7f020002;
         public static final int rainbow=0x7f020003;
-        public static final int rainbowblaxx=0x7f020004;
+        public static final int rainbow2=0x7f020004;
+        public static final int rainbow3=0x7f020005;
+        public static final int rainbow4=0x7f020006;
+        public static final int rainbowblaxx=0x7f020007;
     }
     public static final class id {
-        public static final int action_settings=0x7f08000b;
+        public static final int action_settings=0x7f08000e;
         public static final int btnFRAME=0x7f080004;
         public static final int btnGRID=0x7f080006;
         public static final int btnLINE=0x7f080002;
         public static final int btnRELATIVE=0x7f080003;
         public static final int btnTABLE=0x7f080005;
+        public static final int horizontalScrollView1=0x7f08000b;
         public static final int imageView1=0x7f080007;
+        public static final int imageView2=0x7f08000c;
+        public static final int imageView3=0x7f08000d;
         public static final int linearLayout1=0x7f080000;
         public static final int linear_btn=0x7f080009;
         public static final int linear_edt=0x7f080008;
