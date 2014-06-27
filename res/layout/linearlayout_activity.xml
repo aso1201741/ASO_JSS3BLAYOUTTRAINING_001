@@ -2,6 +2,46 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:layout_margin="10dp"
+    android:gravity="center_horizontal"
     android:orientation="vertical" >
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:gravity="center"
+        android:textSize="30sp"
+        android:text="@string/linear_title" />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/linear_edt" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="100" >
+
+        <Button
+            android:id="@+id/linear_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="75dp"
+            android:layout_weight="50"
+            android:text="@string/linear_btn" />
+
+        <ImageButton
+            android:id="@+id/linear_imgbtn"
+            android:layout_width="150dp"
+            android:layout_height="75dp"
+            android:layout_weight="50"
+            android:scaleType="fitXY"
+            android:src="@drawable/rainbowblaxx" />
+
+    </LinearLayout>
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/rainbow" />
 
 </LinearLayout>
