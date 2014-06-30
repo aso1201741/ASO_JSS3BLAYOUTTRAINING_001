@@ -21,23 +21,31 @@ public final class R {
         public static final int activity_vertical_margin=0x7f040001;
     }
     public static final class drawable {
-        public static final int ic_launcher=0x7f020000;
-        public static final int images_anayuki001=0x7f020001;
-        public static final int oraf01=0x7f020002;
-        public static final int rainbow=0x7f020003;
-        public static final int rainbow2=0x7f020004;
-        public static final int rainbow3=0x7f020005;
-        public static final int rainbow4=0x7f020006;
-        public static final int rainbowblaxx=0x7f020007;
+        public static final int emo_im_angel=0x7f020000;
+        public static final int emo_im_cool=0x7f020001;
+        public static final int emo_im_crying=0x7f020002;
+        public static final int ic_launcher=0x7f020003;
+        public static final int images_anayuki001=0x7f020004;
+        public static final int oraf01=0x7f020005;
+        public static final int rainbow=0x7f020006;
+        public static final int rainbow2=0x7f020007;
+        public static final int rainbow3=0x7f020008;
+        public static final int rainbow4=0x7f020009;
+        public static final int rainbowblaxx=0x7f02000a;
     }
     public static final class id {
-        public static final int action_settings=0x7f08000e;
+        public static final int action_settings=0x7f080014;
         public static final int btnFRAME=0x7f080004;
         public static final int btnGRID=0x7f080006;
         public static final int btnLINE=0x7f080002;
         public static final int btnRELATIVE=0x7f080003;
         public static final int btnTABLE=0x7f080005;
+        public static final int button1=0x7f080010;
+        public static final int editText1=0x7f08000f;
         public static final int horizontalScrollView1=0x7f08000b;
+        public static final int imageButton1=0x7f080013;
+        public static final int imageButton2=0x7f080011;
+        public static final int imageButton3=0x7f080012;
         public static final int imageView1=0x7f080007;
         public static final int imageView2=0x7f08000c;
         public static final int imageView3=0x7f08000d;
@@ -45,6 +53,7 @@ public final class R {
         public static final int linear_btn=0x7f080009;
         public static final int linear_edt=0x7f080008;
         public static final int linear_imgbtn=0x7f08000a;
+        public static final int textView1=0x7f08000e;
         public static final int txvHITOKOTO=0x7f080001;
     }
     public static final class layout {
